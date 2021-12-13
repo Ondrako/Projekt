@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stavební práce</title>
+    <link rel="stylesheet" href="styly.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+<div class="kontejner">
+  
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active"><p>Rekonstrukce bytů</p></a>
+    <a href="#galerie"><p>Galerie</p></a>
+    <a href="#contact"><p>Kontakt</p></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+  <div class="articl">
+    <div>
+     <img class="fotka" src="Galeries/2.jpg">
+    </div>
+    <div class="m">
+      <h1>
+        Rekonstukce bytů
+      </h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quae nesciunt distinctio totam, perspiciatis optio ipsam, voluptatum debitis non quibusdam maxime obcaecati nihil, voluptate quis laboriosam fugiat cumque officiis repellat?</p>
+    </div>
+  </div>
+
+  
+  
+
+
+  <div class="articl">
+    <div class="m">
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde exercitationem similique quas nesciunt qui cumque earum, aperiam, obcaecati provident odio ratione ipsam delectus dolorum quos, nemo officiis. Iure, vel quia.</p>
+    </div>
+    <div class="image-slider sd">
+      <div class="sd">
+        <img class="slide" src="Galeries/porovnani1.jpg">
+      </div>
+     <img src="Galeries/porovnani2.jpg" alt="" class="slide">
+    </div>
+  </div>
+
+  <div class="m">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde exercitationem similique quas nesciunt qui cumque earum, aperiam, obcaecati provident odio ratione ipsam delectus dolorum quos, nemo officiis. Iure, vel quia.</p>
+ </div>
+
+
+  <div class="galerie" id="galerie">
+   <div class="fotky">
+      <img class="obr" src="Galeries/1.jpg">
+      <img class="obr" src="Galeries/2.jpg">
+      <img class="obr" src="Galeries/3.jpg"> 
+   </div>
+   <div class="fotky">
+     <img class="obr" src="Galeries/4.jpg">
+     <img class="obr" src="Galeries/5.jpg">
+     <img class="obr" src="Galeries/6.jpg">
+   </div>
+   <div class="fotky">
+      <img class="obr" src="Galeries/6.jpg">
+     <img class="obr" src="Galeries/7.jpg">
+     <img class="obr" src="Galeries/1.jpg">
+    </div>
+    <div class="fotky">
+      <img class="obr" src="Galeries/6.jpg">
+      <img class="obr" src="Galeries/7.jpg">
+      <img class="obr" src="Galeries/1.jpg">
+    </div>
+  </div>
+
+
+  <footer class="m" id="contact">
+    <h2>
+      Dotaz:
+    </h2>
+    <form>
+      <div>
+        <input class="fo" type="text" name="fname" id="fname" value="Jméno:">
+        <input class="fo" type="text" name="sname" id="sname" value="Příjmení:">
+      </div>
+      
+      <input class="fo" type="email" name="email" id="email" value="Email:">
+
+      <textarea class="fo" name="dotaz" id="dotaz" cols="40" rows="10">Napište dotaz:</textarea>
+
+      <div>
+        <button class="fo" type="submit">Odeslat</button>
+        <input class="fo" type="reset">
+      </div>
+      
+           
+      
+      </form>
+
+    <p>Kontakt: Telefoni cislo</p>
+  </footer>
+
+</div>
+
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+</script>
+
+</body>
+</html>
